@@ -1,0 +1,234 @@
+
+{
+  "@@locale": "ar",
+
+  "appTagline": "تعلّم العربية خطوة بخطوة",
+  "drawerTagline": "تطبيق تعلّم اللغة العربية",
+  "learnArabic": "تعلّم العربية",
+  "alphabetAndLessons": "الحروف والدروس",
+  "profile": "الملف الشخصي",
+  "profileDescription": "عرض ملفك الشخصي أو تحديثه",
+  "changePassword": "تغيير كلمة المرور",
+  "changePasswordDescription": "تحديث كلمة المرور",
+  "checkForUpdates": "التحقق من التحديثات",
+  "checkForUpdatesDescription": "التحقق من وجود إصدار أحدث من اقرأ",
+  "language": "اللغة",
+  "languageDescription": "اختر الإنجليزية أو العربية",
+  "logout": "تسجيل الخروج",
+  "footer": "اقرأ • تعلّم العربية بثقة",
+
+  "welcomeHome": "مرحباً بك في اقرأ 👋",
+  "welcomeDescription": "تعلّم الحروف العربية، وتدرّب على الاختبارات، وحسّن نطقك.",
+  "startLearning": "ابدأ التعلّم",
+  "startLearningDescription": "تعلّم الحروف العربية وطريقة نطقها",
+  "arabicAlphabet": "الحروف العربية",
+  "arabicAlphabetDescription": "تعلّم الحروف والأصوات والحركات العربية.",
+  "practiceQuizzes": "اختبارات تدريبية",
+  "practiceQuizzesDescription": "اختبر ما تعلمته",
+  "quiz1Instruction": "اختر الإجابة الصحيحة",
+  "quiz2Instruction": "استمع واختر الإجابة",
+  "quiz3Instruction": "اختر الأزواج المتطابقة",
+  "quiz4Instruction": "تدرّب على النطق العربي",
+  "motivation": "تدرّب قليلاً كل يوم لتطوّر لغتك العربية بسرعة أكبر.",
+  "home": "الرئيسية",
+  "startLesson": "ابدأ الدرس",
+
+  "quizLabel": "الاختبار {number}",
+  "@quizLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+
+  "welcome": "مرحباً بك في اقرأ!",
+  "lessons": "الدروس",
+  "quizzes": "الاختبارات",
+  "welcomeBack": "مرحباً بعودتك",
+  "loginTitle": "تسجيل الدخول",
+  "usernameLabel": "اسم المستخدم",
+  "passwordLabel": "كلمة المرور",
+  "dontHaveAccount": "ليس لديك حساب؟",
+  "registerButton": "إنشاء حساب",
+  "forgotPasswordButton": "نسيت كلمة المرور؟",
+  "fillAllFields": "يرجى تعبئة جميع الحقول.",
+  "loginSuccessful": "تم تسجيل الدخول بنجاح.",
+  "invalidCredentials": "اسم المستخدم أو كلمة المرور غير صحيحة.",
+  "invalidServerResponse": "تم استلام استجابة غير صالحة من الخادم.",
+
+  "serverErrorStatus": "خطأ في الخادم: {statusCode}",
+  "@serverErrorStatus": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+
+  "networkError": "حدث خطأ في الاتصال. يرجى التحقق من اتصالك بالإنترنت.",
+  "emailLabel": "البريد الإلكتروني",
+  "genderLabel": "الجنس",
+  "femaleLabel": "أنثى",
+  "maleLabel": "ذكر",
+  "ageLabel": "العمر",
+  "phoneNumberLabel": "رقم الهاتف",
+  "alreadyHaveAccount": "لديك حساب بالفعل؟ تسجيل الدخول",
+  "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح.",
+  "registrationSuccessful": "تم إنشاء الحساب بنجاح!",
+  "registrationFailed": "فشل إنشاء الحساب.",
+  "connectionTimedOut": "انتهت مهلة الاتصال. يرجى التحقق من اتصالك بالإنترنت.",
+  "unableToConnect": "تعذر الاتصال بالخادم. يرجى التحقق من اتصالك بالإنترنت.",
+
+  "forgotPasswordTitle": "نسيت كلمة المرور",
+  "enterEmail": "يرجى إدخال عنوان بريدك الإلكتروني.",
+  "emailFound": "تم العثور على البريد الإلكتروني.",
+  "emailNotFound": "البريد الإلكتروني غير موجود.",
+  "newPasswordLabel": "كلمة المرور الجديدة",
+  "confirmPasswordLabel": "تأكيد كلمة المرور",
+  "resetPasswordButton": "إعادة تعيين كلمة المرور",
+  "checkEmailButton": "التحقق من البريد الإلكتروني",
+  "passwordsDoNotMatch": "كلمتا المرور غير متطابقتين.",
+  "passwordMinLength": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل.",
+  "resetSuccessful": "تمت إعادة تعيين كلمة المرور بنجاح.",
+  "resetFailed": "فشلت إعادة تعيين كلمة المرور.",
+
+  "currentPasswordLabel": "كلمة المرور الحالية",
+  "usernameMissing": "اسم المستخدم غير موجود. يرجى تسجيل الدخول مرة أخرى.",
+  "newPasswordMustDiffer": "يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمة المرور الحالية.",
+  "changePasswordSuccessful": "تم تغيير كلمة المرور بنجاح.",
+  "changePasswordFailed": "فشل تغيير كلمة المرور.",
+
+  "refreshProfile": "تحديث الملف الشخصي",
+  "addProfilePhoto": "إضافة صورة شخصية",
+  "changeProfilePhoto": "تغيير الصورة الشخصية",
+  "updateProfile": "حفظ التعديلات",
+  "profileLoadFailed": "تعذر تحميل الملف الشخصي. يرجى التحقق من اتصالك بالإنترنت.",
+  "profileFieldsRequired": "يرجى تعبئة جميع حقول الملف الشخصي.",
+  "profileUpdateSuccessful": "تم تحديث الملف الشخصي بنجاح.",
+  "profileUpdateFailed": "فشل تحديث الملف الشخصي.",
+  "profileUpdateNetworkError": "تعذر تحديث الملف الشخصي. يرجى التحقق من اتصالك بالإنترنت.",
+  "profileImagePickFailed": "تعذر اختيار الصورة.",
+  "profilePhotoUpdated": "تم تحديث الصورة الشخصية بنجاح.",
+  "profilePhotoUploadFailed": "فشل رفع الصورة.",
+  "profilePhotoUploadNetworkError": "تعذر رفع الصورة. يرجى التحقق من اتصالك بالإنترنت.",
+
+  "learnArabicAlphabetTitle": "تعلّم الحروف العربية",
+  "learnLetterTitle": "تعلّم حرف {letter}",
+  "@learnLetterTitle": {
+    "placeholders": {
+      "letter": {
+        "type": "String"
+      }
+    }
+  },
+
+  "fathahLabel": "الفتحة",
+  "dammaLabel": "الضمة",
+  "kasrah": "الكسرة",
+  "kasrahLabel": "الكسرة",
+  "playPronunciation": "استمع إلى النطق",
+  "audioPlaybackError": "تعذر تشغيل الصوت. يرجى المحاولة مرة أخرى.",
+
+  "quiz1LoadShort": "تعذر تحميل الاختبار الأول.",
+  "quiz1LoadError": "تعذر تحميل الاختبار الأول. تحقق من اتصالك بالإنترنت وحاول مرة أخرى.",
+  "quizNoQuestions": "لم يتم العثور على أسئلة للاختبار الأول.",
+  "quizTryAgain": "حاول مرة أخرى",
+
+  "quizScoreSummary": "النتيجة: {score} / {maxScore}",
+  "@quizScoreSummary": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "maxScore": {
+        "type": "int"
+      }
+    }
+  },
+
+  "quizQuestionProgress": "السؤال {current} من {total}",
+  "@quizQuestionProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+
+  "quizSelectAnswerFirst": "يرجى اختيار إجابة أولاً.",
+  "quizCorrectAnswerMissing": "تعذر العثور على الإجابة الصحيحة.",
+  "quizCorrectPoints": "إجابة صحيحة! +5 نقاط",
+  "quizIncorrectAnswer": "إجابة غير صحيحة.",
+
+  "quizCompletedScore": "اكتمل الاختبار! نتيجتك: {score}",
+  "@quizCompletedScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+
+  "quizUsernameNotFound": "لم يتم العثور على اسم المستخدم. يرجى تسجيل الدخول مجدداً.",
+  "quizScoreSaved": "تم حفظ نتيجة الاختبار الأول بنجاح.",
+  "quizScoreSaveFailed": "فشل حفظ النتيجة.",
+  "quizScoreNetworkError": "تعذر حفظ النتيجة. تحقق من اتصالك بالإنترنت.",
+  "quizAudioError": "تعذر تشغيل الصوت.",
+  "quizAwesome": "رائع!",
+
+  "quizIncorrectFeedback": "إجابة غير صحيحة. الإجابة الصحيحة هي {answer}.",
+  "@quizIncorrectFeedback": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+
+  "quizContinue": "متابعة",
+  "quizSubmitAnswer": "إرسال الإجابة",
+
+  "quiz2LoadShort": "تعذر تحميل الاختبار الثاني.",
+  "quiz2LoadError": "تعذر تحميل الاختبار الثاني. تحقق من اتصالك بالإنترنت وحاول مرة أخرى.",
+  "quiz2NoQuestions": "لم يتم العثور على أسئلة للاختبار الثاني.",
+  "quiz2ScoreSaved": "تم حفظ نتيجة الاختبار الثاني بنجاح.",
+
+  "quiz3LoadShort": "تعذر تحميل الاختبار الثالث.",
+  "quiz3LoadError": "تعذر تحميل الاختبار الثالث. تحقق من اتصالك بالإنترنت وحاول مرة أخرى.",
+  "quiz3NoQuestions": "لم يتم العثور على أسئلة للاختبار الثالث.",
+  "quiz3MatchAllPairs": "يرجى مطابقة جميع الأزواج بشكل صحيح أولاً.",
+  "quiz3AllPairsCorrect": "رائع! جميع الأزواج متطابقة بشكل صحيح.",
+  "quiz3ScoreSaved": "تم حفظ نتيجة الاختبار الثالث بنجاح.",
+  "quiz3InvalidPairs": "تعذر عرض أزواج المطابقة. يرجى المحاولة مرة أخرى.",
+
+  "speechPronunciationTitle": "التدرب على النطق",
+  "speechRecognitionLanguageLabel": "لغة التعرف على الكلام",
+  "speechPreparing": "جارٍ تجهيز التعرف على الكلام...",
+  "speechTapToSpeak": "اضغط على الميكروفون للتحدث",
+  "speechListeningNow": "أنا أستمع... تحدث الآن",
+  "speechNoSpeechDetected": "لم يتم اكتشاف أي كلام. حاول مرة أخرى.",
+  "speechRecognitionComplete": "اكتمل التعرف على الكلام",
+  "speechTapToTryAgain": "اضغط على الميكروفون للمحاولة مرة أخرى",
+  "speechUnavailable": "التعرف على الكلام غير متاح.",
+
+  "speechRecognizedText": "النص الذي تم التعرف عليه",
+  "speechPlaceholder": "سيظهر الكلام الذي تقوله هنا",
+  "speechRecognitionConfidence": "مستوى الثقة في التعرف",
+  "speechTapToStop": "اضغط للإيقاف",
+  "speechCopy": "نسخ",
+  "speechClear": "مسح",
+  "speechTextCopied": "تم نسخ النص الذي تم التعرف عليه",
+
+  "speechErrorTimeout": "لم يتم اكتشاف أي كلام. حاول مرة أخرى.",
+  "speechErrorNoMatch": "تعذر فهم الكلام. حاول مرة أخرى.",
+  "speechErrorNetwork": "يرجى التحقق من اتصالك بالإنترنت.",
+  "speechErrorAudio": "حدثت مشكلة في الميكروفون.",
+  "speechErrorPermission": "يجب السماح للتطبيق باستخدام الميكروفون.",
+  "speechErrorGeneric": "حدث خطأ أثناء التعرف على الكلام.",
+  "speechInitializationFailed": "تعذر تهيئة التعرف على الكلام.",
+  "speechUnableStart": "تعذر بدء الاستماع. حاول مرة أخرى."
+}

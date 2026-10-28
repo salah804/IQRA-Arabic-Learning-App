@@ -1,0 +1,233 @@
+
+{
+  "@@locale": "en",
+
+  "appTagline": "Learn Arabic step by step",
+  "drawerTagline": "Arabic Learning App",
+  "learnArabic": "Learn Arabic",
+  "alphabetAndLessons": "Alphabet & lessons",
+  "profile": "Profile",
+  "profileDescription": "View or update your profile",
+  "changePassword": "Change Password",
+  "changePasswordDescription": "Update your password",
+  "checkForUpdates": "Check for Updates",
+  "checkForUpdatesDescription": "Check for a newer IQRA version",
+  "language": "Language",
+  "languageDescription": "Choose English or Arabic",
+  "logout": "Logout",
+  "footer": "IQRA • Learn Arabic with confidence",
+
+  "welcomeHome": "Welcome to IQRA 👋",
+  "welcomeDescription": "Learn Arabic letters, practice quizzes and improve your pronunciation.",
+  "startLearning": "Start Learning",
+  "startLearningDescription": "Learn the Arabic alphabet and pronunciation",
+  "arabicAlphabet": "Arabic Alphabet",
+  "arabicAlphabetDescription": "Learn Arabic letters, sounds and Harakat.",
+  "practiceQuizzes": "Practice Quizzes",
+  "practiceQuizzesDescription": "Test what you have learned",
+  "quiz1Instruction": "Choose the correct answer",
+  "quiz2Instruction": "Listen and choose the answer",
+  "quiz3Instruction": "Select the matching pairs",
+  "quiz4Instruction": "Practice Arabic pronunciation",
+  "motivation": "Practice a little every day to improve your Arabic faster.",
+  "home": "Home",
+  "startLesson": "Start Lesson",
+
+  "quizLabel": "Quiz {number}",
+  "@quizLabel": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+
+  "welcome": "Welcome to IQRA!",
+  "lessons": "Lessons",
+  "quizzes": "Quizzes",
+  "welcomeBack": "Welcome back",
+  "loginTitle": "Login",
+  "usernameLabel": "Username",
+  "passwordLabel": "Password",
+  "dontHaveAccount": "Don't have an account?",
+  "registerButton": "Register",
+  "forgotPasswordButton": "Forgot Password?",
+  "fillAllFields": "Please fill in all fields.",
+  "loginSuccessful": "Login successful.",
+  "invalidCredentials": "Invalid username or password.",
+  "invalidServerResponse": "Invalid response received from server.",
+
+  "serverErrorStatus": "Server error: {statusCode}",
+  "@serverErrorStatus": {
+    "placeholders": {
+      "statusCode": {
+        "type": "int"
+      }
+    }
+  },
+
+  "networkError": "A network error occurred. Please check your internet connection.",
+  "emailLabel": "Email",
+  "genderLabel": "Gender",
+  "femaleLabel": "Female",
+  "maleLabel": "Male",
+  "ageLabel": "Age",
+  "phoneNumberLabel": "Phone Number",
+  "alreadyHaveAccount": "Already have an account? Login",
+  "invalidEmail": "Please enter a valid email address.",
+  "registrationSuccessful": "Registration successful!",
+  "registrationFailed": "Registration failed.",
+  "connectionTimedOut": "Connection timed out. Please check your internet connection.",
+  "unableToConnect": "Unable to connect to the server. Please check your internet connection.",
+
+  "forgotPasswordTitle": "Forgot Password",
+  "enterEmail": "Please enter your email address.",
+  "emailFound": "Email found.",
+  "emailNotFound": "Email does not exist.",
+  "newPasswordLabel": "New Password",
+  "confirmPasswordLabel": "Confirm Password",
+  "resetPasswordButton": "Reset Password",
+  "checkEmailButton": "Check Email",
+  "passwordsDoNotMatch": "Passwords do not match.",
+  "passwordMinLength": "Password must be at least 6 characters.",
+  "resetSuccessful": "Password reset successful.",
+  "resetFailed": "Failed to reset password.",
+
+  "currentPasswordLabel": "Current Password",
+  "usernameMissing": "Username is missing. Please login again.",
+  "newPasswordMustDiffer": "New password must be different from the current password.",
+  "changePasswordSuccessful": "Password changed successfully.",
+  "changePasswordFailed": "Failed to change password.",
+
+  "refreshProfile": "Refresh Profile",
+  "addProfilePhoto": "Add Profile Photo",
+  "changeProfilePhoto": "Change Profile Photo",
+  "updateProfile": "Update Profile",
+  "profileLoadFailed": "Unable to load profile. Check your internet connection.",
+  "profileFieldsRequired": "Please fill in all profile fields.",
+  "profileUpdateSuccessful": "Profile updated successfully.",
+  "profileUpdateFailed": "Failed to update profile.",
+  "profileUpdateNetworkError": "Unable to update profile. Check your internet connection.",
+  "profileImagePickFailed": "Unable to select image.",
+  "profilePhotoUpdated": "Profile photo updated successfully.",
+  "profilePhotoUploadFailed": "Failed to upload image.",
+  "profilePhotoUploadNetworkError": "Unable to upload image. Check your internet connection.",
+
+  "learnArabicAlphabetTitle": "Learn Arabic Alphabet",
+  "learnLetterTitle": "Learn {letter}",
+  "@learnLetterTitle": {
+    "placeholders": {
+      "letter": {
+        "type": "String"
+      }
+    }
+  },
+
+  "fathahLabel": "Fatḥah",
+  "dammaLabel": "Damma",
+  "kasrahLabel": "Kasrah",
+  "playPronunciation": "Play pronunciation",
+  "audioPlaybackError": "Unable to play the audio. Please try again.",
+
+  "quiz1LoadShort": "Unable to load Quiz 1.",
+  "quiz1LoadError": "Unable to load Quiz 1. Please check your internet connection and try again.",
+  "quizNoQuestions": "No Quiz 1 questions found.",
+  "quizTryAgain": "Try Again",
+
+  "quizScoreSummary": "Score: {score} / {maxScore}",
+  "@quizScoreSummary": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "maxScore": {
+        "type": "int"
+      }
+    }
+  },
+
+  "quizQuestionProgress": "Question {current} of {total}",
+  "@quizQuestionProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+
+  "quizSelectAnswerFirst": "Please select an answer first.",
+  "quizCorrectAnswerMissing": "Correct answer could not be found.",
+  "quizCorrectPoints": "Correct! +5 points",
+  "quizIncorrectAnswer": "Incorrect answer.",
+
+  "quizCompletedScore": "Quiz Completed! Your score: {score}",
+  "@quizCompletedScore": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      }
+    }
+  },
+
+  "quizUsernameNotFound": "Username not found. Please login again.",
+  "quizScoreSaved": "Quiz 1 score saved successfully.",
+  "quizScoreSaveFailed": "Failed to save score.",
+  "quizScoreNetworkError": "Unable to save score. Check your internet connection.",
+  "quizAudioError": "Unable to play sound.",
+  "quizAwesome": "Awesome!",
+
+  "quizIncorrectFeedback": "Incorrect. The correct answer is {answer}.",
+  "@quizIncorrectFeedback": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+
+  "quizContinue": "Continue",
+  "quizSubmitAnswer": "Submit Answer",
+
+  "quiz2LoadShort": "Unable to load Quiz 2.",
+  "quiz2LoadError": "Unable to load Quiz 2. Please check your internet connection and try again.",
+  "quiz2NoQuestions": "No Quiz 2 questions found.",
+  "quiz2ScoreSaved": "Quiz 2 score saved successfully.",
+
+  "quiz3LoadShort": "Unable to load Quiz 3.",
+  "quiz3LoadError": "Unable to load Quiz 3. Please check your internet connection and try again.",
+  "quiz3NoQuestions": "No Quiz 3 questions found.",
+  "quiz3MatchAllPairs": "Please match all pairs correctly first.",
+  "quiz3AllPairsCorrect": "Awesome! All pairs are correct.",
+  "quiz3ScoreSaved": "Quiz 3 score saved successfully.",
+  "quiz3InvalidPairs": "The matching pairs could not be displayed. Please try again.",
+
+  "speechPronunciationTitle": "Pronunciation Practice",
+  "speechRecognitionLanguageLabel": "Speech recognition language",
+  "speechPreparing": "Preparing speech recognition...",
+  "speechTapToSpeak": "Tap the microphone to speak",
+  "speechListeningNow": "Listening... speak now",
+  "speechNoSpeechDetected": "No speech detected. Try again.",
+  "speechRecognitionComplete": "Recognition complete",
+  "speechTapToTryAgain": "Tap the microphone to try again",
+  "speechUnavailable": "Speech recognition is not available.",
+
+  "speechRecognizedText": "Recognized Text",
+  "speechPlaceholder": "Your speech will appear here",
+  "speechRecognitionConfidence": "Recognition confidence",
+  "speechTapToStop": "Tap to stop",
+  "speechCopy": "Copy",
+  "speechClear": "Clear",
+  "speechTextCopied": "Recognized text copied",
+
+  "speechErrorTimeout": "No speech detected. Try again.",
+  "speechErrorNoMatch": "I could not understand that. Try again.",
+  "speechErrorNetwork": "Please check your internet connection.",
+  "speechErrorAudio": "There was a microphone problem.",
+  "speechErrorPermission": "Microphone permission is required.",
+  "speechErrorGeneric": "A speech recognition error occurred.",
+  "speechInitializationFailed": "Unable to initialize speech recognition.",
+  "speechUnableStart": "Unable to start listening. Try again."
+}

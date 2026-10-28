@@ -1,0 +1,78 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# Security - Never upload private credentials
+.env
+.env.*
+!.env.example
+
+# Android signing credentials
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.pem
+
+# Local configuration
+**/local.properties
+
+# PHP database credentials
+**/db_connect.php
+
+**/admin_profiles.php
+
+
+# Keep all PHP backend files private by default
+**/*.php
+
+# Allow only reviewed PHP files inside backend/
+!/backend/cors.php
+!/backend/db_connect.example.php
+!/backend/fetch_quiz1.php
+!/backend/fetch_quiz2.php
+!/backend/fetch_quiz3.php
+
+# Exclude packaged Flutter Web builds
+/iqra-web.zip

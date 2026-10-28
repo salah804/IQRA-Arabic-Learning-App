@@ -1,0 +1,108 @@
+name: aqra
+description: "Arabic learning application."
+publish_to: 'none'
+
+version: 1.0.1+3
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  shared_preferences: ^2.0.6
+
+  http: ^0.13.3
+
+  image_picker: ^0.8.4+4
+
+  fluttertoast: ^8.0.7
+
+  path_provider: ^2.0.2
+
+  audioplayers: ^5.2.0
+
+  speech_to_text: ^6.3.0
+
+  permission_handler: ^8.3.0
+
+  # Used to read the installed IQRA version/build number
+  package_info_plus: 4.2.0
+
+  # Used to open the APK download link
+  url_launcher: 6.2.6
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  flutter_launcher_icons: ^0.13.1
+
+
+# ============================================================
+# APP ICON
+# ============================================================
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+
+
+# ============================================================
+# FLUTTER
+# ============================================================
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+
+    # ========================================================
+    # IMAGES
+    # ========================================================
+
+    - assets/iqra.png
+    - assets/salah.jpg
+    - assets/quiz1.png
+    - assets/quiz2.png
+    - assets/quiz3.png
+    - assets/quiz4.png
+    - assets/Arabic.jpg
+    - assets/forgot.png
+    - assets/password.png
+    - assets/forgot password1.png
+
+    # ========================================================
+    # APP ICON
+    # ========================================================
+
+    - assets/icon/app_icon.png
+
+    # ========================================================
+    # ARABIC LESSON AUDIO
+    # Includes every file inside assets/soundus/
+    # ========================================================
+
+    - assets/soundus/
+
+
+# ============================================================
+# PACKAGE COMPATIBILITY
+# ============================================================
+# Keeps url_launcher compatible with your current
+# Android SDK / Kotlin project setup.
+# ============================================================
+
+dependency_overrides:
+  url_launcher_android: 6.2.2
